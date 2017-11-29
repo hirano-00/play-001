@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* ------------------------------------
+  Reset Style
+------------------------------------ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, "游ゴシック", YuGothic, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "メイリオ", Meiryo, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+p {
+  margin: 1rem 0 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 2.38rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.63rem;
+}
+
+h4, h5 {
+  font-size: 1.25rem;
+}
