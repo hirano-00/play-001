@@ -41,3 +41,26 @@ h3 {
 h4, h5 {
   font-size: 1.25rem;
 }
+
+.l-inner {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 90vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.l-sec .sec-index {
+  margin-top: 0;
+}
+
+.l-sec:nth-child(odd) {
+  /*background: #871b1b;*/
+  background: linear-gradient(to bottom, #000000 0%, #000000 49%, #b2212b 50%, #000000 51%, #000000 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.l-sec:nth-child(even) {
+  background: #efefef;
+}
